@@ -108,7 +108,20 @@ do{
 }while(b<=5)
 
 
+console.log("************************For-Of Loop************************");
 
+//Syntax:
+/*
+for(let val of strVar){
+    do some work
+}
+*/
+
+//Q. write a string of Name using For-Of Loop
+let string="MauliiKarche";
+for(let i of string){
+    console.log("i =",i);
+}
 
 
 
