@@ -119,9 +119,12 @@ for(let val of strVar){
 
 //Q. write a string of Name using For-Of Loop
 let string="MauliiKarche";
+let size= 0;
 for(let i of string){
     console.log("i =",i);
+    size++;
 }
+console.log("string= " ,size);
 
 
 
